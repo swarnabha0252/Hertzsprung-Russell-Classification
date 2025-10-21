@@ -9,3 +9,18 @@ All code, steps, and model outputs are reproducible.
 - Final notebook: `/notebooks/Hertzsprung-Russell-Diagram.ipynb`
 - Sample data: `/data/stars.csv`
 - See `/figures/` for main visualizations.
+
+## How to Run
+
+1. Clone this repo:
+   git clone [your-repo-url]
+
+2. Open `/notebooks/Hertzsprung-Russell-Diagram.ipynb` in Jupyter, Colab, or VS Code.
+
+3. Make sure `/data/stars.csv` is present.
+
+4. Run cells top to bottom.  
+   All dependencies: pandas, numpy, matplotlib, seaborn, scikit-learn.
+
+No setup script, no CLI, no hidden requirements. Notebook uses standard packages, no custom code.
+
