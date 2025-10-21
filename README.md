@@ -9,6 +9,17 @@ All code, steps, and model outputs are reproducible.
 - Final notebook: `/notebooks/Hertzsprung-Russell-Diagram.ipynb`
 - Sample data: `/data/stars.csv`
 - See `/figures/` for main visualizations.
+      - `hr_true.png`  
+        Shows the actual star types on the Hertzsprung-Russell diagram. This is the real class distribution in the dataset.
+
+      - `hr_rf.png`  
+        Random Forest predictions shown on the HR diagram. Nonlinear boundary, fewer mistakes, classes are split correctly.
+
+      - `hr_lr.png`  
+        Logistic Regression predictions on the same diagram. Only linear boundaries; some classes get mixed up.
+
+      - `hr_compare.png`  
+        Side-by-side comparison: Random Forest vs Logistic Regression. Direct view of how each model classifies stars in feature space.
 
 ## How to Run
 
