@@ -10,6 +10,11 @@ All code, steps, and model outputs are reproducible.
 - Sample data: `/data/stars.csv`
 - See `/figures/` for main visualizations.
 
+## Data Source
+
+The dataset used for this project comes from:
+https://www.kaggle.com/datasets/deepu1109/star-dataset/data
+
 ## How to Run
 
 1. Clone this repo:
